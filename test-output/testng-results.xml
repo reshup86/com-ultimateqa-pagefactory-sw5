@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[User clicks on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Error Message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[Enter email admin1234@example.com to email field [[ChromeDriver: chrome on WINDOWS (8bebe785f5e8724a4e999d7824ed1147)] -> id: user[email]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password to password field]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Error message display]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="11647" started-at="2022-12-13T19:45:00 GMT" finished-at="2022-12-13T19:45:12 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="userShouldNavigateToLoginPageSuccessfully" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="verifyTheErrorMessage" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="verifyTheErrorMessage" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="userShouldNavigateToLoginPageSuccessfully" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="11647" started-at="2022-12-13T19:45:00 GMT" finished-at="2022-12-13T19:45:12 GMT">
+      <class name="com.ultimateqa.courses.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="setUp" is-config="true" duration-ms="4118" started-at="2022-12-13T19:45:01 GMT" finished-at="2022-12-13T19:45:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="inIt" is-config="true" duration-ms="20" started-at="2022-12-13T19:45:05 GMT" finished-at="2022-12-13T19:45:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="userShouldNavigateToLoginPageSuccessfully" duration-ms="974" started-at="2022-12-13T19:45:05 GMT" finished-at="2022-12-13T19:45:06 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicks on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Error Message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="tearDown" is-config="true" duration-ms="700" started-at="2022-12-13T19:45:06 GMT" finished-at="2022-12-13T19:45:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="setUp" is-config="true" duration-ms="2750" started-at="2022-12-13T19:45:07 GMT" finished-at="2022-12-13T19:45:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-13T19:45:09 GMT" finished-at="2022-12-13T19:45:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="verifyTheErrorMessage" duration-ms="2049" started-at="2022-12-13T19:45:09 GMT" finished-at="2022-12-13T19:45:11 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicks on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[Enter email admin1234@example.com to email field [[ChromeDriver: chrome on WINDOWS (8bebe785f5e8724a4e999d7824ed1147)] -> id: user[email]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password to password field]]>
+            </line>
+            <line>
+              <![CDATA[Click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Error message display]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@3578436e]" name="tearDown" is-config="true" duration-ms="739" started-at="2022-12-13T19:45:11 GMT" finished-at="2022-12-13T19:45:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.courses.testsuite.LoginPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
